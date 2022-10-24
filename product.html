@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="max-width=1440, initial-scale=1.0" />
+    <title>Bootstrap Product</title>
+    <!-- CSS only -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="product.css" />
+  </head>
+  <body class="container-fluid bg-secondary">
+    <header>
+      <aside class="left-header">
+        <img
+          src="/assets/coffee-logo.png"
+          width="30px"
+          height="30px"
+          alt="coffee-icon"
+        />
+        <span class="coffeeshop">Coffee Shop</span>
+      </aside>
+      <aside class="center-header">
+        <p class="home">Home</p>
+        <p class="product">Product</p>
+        <p class="cart">Your Cart</p>
+        <p class="history">History</p>
+      </aside>
+      <aside class="right-header">
+        <img
+          src="/assets/search-icon.png"
+          alt="search-icon"
+          class="search-icon"
+        />
+        <img src="/assets/msg-icon.png" alt="msg-icon" class="msg-icon" />
+
+        <img src="/assets/beard-man-icon.jpg" class="icon-profile-img" />
+      </aside>
+    </header>
+
+    <main class="container-fluid text-dark">
+      <div class="row align-items-center">
+        <section class="col-4 border w-25">
+          <h1 class="text-center" style="margin-top: 5%">Promo for you</h1>
+          <br />
+          <p class="text-center coupons">
+            Coupons will be updated every weeks. <br />
+            Check them out!
+          </p>
+          <div class="text-center rounded-2 left-border w-75">
+            <span class="border">
+              <img
+                src="/assets/beef-spaghetti - Edited.png"
+                alt="beef Spaghetti"
+                class="beef-spaghetti w-50"
+                style="margin-top: 20%"
+              />
+              <p class="beef">
+                Beef Spaghetti <br />
+                20% OFF
+              </p>
+
+              <p class="choco">
+                Buy 1 Choco Oreo and get 20% off <br />
+                for Beef Spaghetti
+              </p>
+
+              <p>-------------------------------------</p>
+
+              <p class="code">COUPON CODE</p>
+              <p class="codex">FNPR15RG</p>
+              <p class="valid">Valid untill October 10th 2020</p>
+            </span>
+          </div>
+          <div class="text-center d-grid gap-2 col-9 mx-auto">
+            <button type="button" class="btn btn-primary btn-lg">
+              Apply Coupon
+            </button>
+          </div>
+          <p class="term" style="font-weight: bold">
+            Terms and Condition <br />
+          </p>
+          <p class="ruleterm">
+            1. You can only apply 1 coupon per day <br />
+            2. It only for dine in <br />
+            3. Buy 1 get 1 only for new user <br />
+            4. Should make member card to apply coupon
+          </p>
+        </section>
+
+        <section class="col-8 border w-75 row align-items-start main-side">
+          <div class="container text-center">
+            <aside class="row align-items-start sub-category">
+              <aside class="col text-decoration-underline fav-prod">
+                <p>Favorite Product</p>
+              </aside>
+              <aside class="col category coffee">Coffee</aside>
+              <aside class="col category noncoffee">Non Coffee</aside>
+              <aside class="col category foods">Foods</aside>
+              <aside class="col category addon">Add-on</aside>
+            </aside>
+          </div>
+
+          <div class="container text-center list-products">
+            <aside class="row align-items-start">
+              <!-- <div class="text-center rounded-2 left-border w-auto prod-border"> -->
+              <aside class="col">
+                <img
+                  src="/assets/veggie-tomato-product.png"
+                  alt=""
+                  style="width: 100px"
+                />
+                <p class="dishes">
+                  Veggie <br />
+                  tomato <br />
+                  mix
+                </p>
+                <p class="price">IDR 34.000</p>
+              </aside>
+            <!-- </div> -->
+
+              <aside class="col">
+                <img
+                  src="/assets/hazzelnut-product.png"
+                  alt=""
+                  style="width: 100px"
+                />
+                <p class="dishes">
+                  Hazelnut <br />
+                  Latte
+                </p>
+                <p class="price">IDR 25.000</p>
+              </aside>
+
+              <aside class="col">
+                <img
+                  src="/assets/summer-fried-rice-prodcut.png"
+                  alt=""
+                  style="width: 100px"
+                />
+                <p class="dishes">
+                  Summer <br />
+                  fried rice
+                </p>
+                <p class="price">IDR 32.000</p>
+              </aside>
+
+              <aside class="col">
+                <img
+                  src="/assets/creamy-ice-latte-product.png"
+                  alt=""
+                  style="width: 100px"
+                />
+                <p class="dishes">
+                  Creamy <br />
+                  Ice Latte
+                </p>
+                <p class="price">IDR 27.000</p>
+              </aside>
+            </aside>
+          </div>
+
+          <div class="container text-center">
+            <aside class="row align-items-start">
+              <aside class="col">
+                <img
+                  src="/assets/drum-stick-prod.png"
+                  alt=""
+                  style="width: 100px"
+                />
+                <p class="dishes">
+                  Drum <br />
+                  Sticks
+                </p>
+                <p class="price">IDR 30.000</p>
+              </aside>
+
+              <aside class="col">
+                <img
+                  src="/assets/salty-rice-prod.png"
+                  alt=""
+                  style="width: 100px"
+                />
+                <p class="dishes">
+                  Salty <br />
+                  Rice
+                </p>
+                <p class="price">IDR 20.000</p>
+              </aside>
+
+              <aside class="col">
+                <img
+                  src="/assets/summer-fried-rice-prodcut.png"
+                  alt=""
+                  style="width: 100px"
+                />
+                <p class="dishes">
+                  Summer <br />
+                  fried rice
+                </p>
+                <p class="price">IDR 32.000</p>
+              </aside>
+
+              <aside class="col">
+                <img
+                  src="/assets/creamy-ice-latte-product.png"
+                  alt=""
+                  style="width: 100px"
+                />
+                <p class="dishes">
+                  Creamy <br />
+                  Ice Latte
+                </p>
+                <p class="price">IDR 27.000</p>
+              </aside>
+            </aside>
+          </div>
+
+          <div class="container text-center">
+            <aside class="row align-items-start">
+              <aside class="col">
+                <img
+                  src="/assets/veggie-tomato-product.png"
+                  alt=""
+                  style="width: 100px"
+                />
+                <p class="dishes">
+                  Veggie <br />
+                  tomato <br />
+                  mix
+                </p>
+
+                <p class="price">IDR 34.000</p>
+              </aside>
+
+              <aside class="col">
+                <img
+                  src="/assets/hazzelnut-product.png"
+                  alt=""
+                  style="width: 100px"
+                />
+                <p class="dishes">
+                  Hazelnut <br />
+                  Latte
+                </p>
+
+                <p class="price">IDR 25.000</p>
+              </aside>
+
+              <aside class="col">
+                <img
+                  src="/assets/summer-fried-rice-prodcut.png"
+                  alt=""
+                  style="width: 100px"
+                />
+                <p class="dishes">
+                  Summer <br />
+                  fried rice
+                </p>
+
+                <p class="price">IDR 32.000</p>
+              </aside>
+
+              <aside class="col">
+                <img
+                  src="/assets/creamy-ice-latte-product.png"
+                  alt=""
+                  style="width: 100px"
+                />
+                <p class="dishes">
+                  Creamy <br />
+                  Ice Latte
+                </p>
+
+                <p class="price">IDR 27.000</p>
+              </aside>
+            </aside>
+          </div>
+        </section>
+      </div>
+    </main>
+    <footer>
+      <aside class="desc">
+        <aside class="about-coffe">
+          <img
+            src="/assets/coffee-logo.png"
+            width="27px"
+            height="27px"
+            alt="coffee-icon"
+          />
+          <span class="coffeeshp">Coffee Shop</span> <br />
+          <p class="coffee-desc">
+            Coffee Shop is a store that sells some good <br />
+            meals, and especially coffee. We provide <br />
+            high quality beans
+          </p>
+          <aside class="socmed">
+            <img src="/assets/fb-icon.png" alt="" width="35px" />
+            <img src="/assets//twitter-icon.png" alt="" width="35px" />
+            <img src="/assets/ig-icon.png" alt="" width="35px" />
+            <p class="socmed-url">@2022CoffeeStore</p>
+          </aside>
+        </aside>
+      </aside>
+      <aside class="product-info">
+        <p class="products">Product</p>
+
+        <p class="download-content">
+          Download
+          <br /><br />
+          Pricing <br /><br />
+          Locations <br /><br />
+          Countries <br /><br />
+          Blog
+        </p>
+      </aside>
+      <aside class="engagement">
+        <p class="engage">Engage</p>
+        <p class="engage-content">
+          Coffee Shop ?<br /><br />
+          FAQ<br /><br />
+          About Us<br /><br />
+          Privacy Policy<br /><br />
+          Terms of Service
+        </p>
+      </aside>
+    </footer>
+  </body>
+</html>
