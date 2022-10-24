@@ -447,6 +447,25 @@ h5 {
   -o-border-radius: 10px;
 }
 
+.form-control{
+  margin-top: -28%;
+  margin-left: 80%;
+  width: auto;
+}
+
+.wrapselected {
+  height: 550px;
+  width: 300px;
+  position: relative;
+  border-style: solid;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  
+}
+
 .hzl {
   margin-top: -5%;
   margin-left: -4%;
